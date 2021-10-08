@@ -36,7 +36,7 @@ List of stable classes that can be used to change style of elements of the embed
 
 Here are some rules of thumb when a applying custom css to the embed:
 - only classes prefixed by `scp-embed-` should be considered as stable
-- thus, to change padding on posts, do not override `scp-p-4` which is used as of this writing to add a padding around elements: it may disappear in the future, but prefer ading rule on `scp-embed-post-container`
+- thus, to change padding on posts, do not override `scp-p-4` which is used - as of this writing - to add a padding around elements: it may disappear in the future, but prefer adding rule on `scp-embed-post-container`
 - sizes are relative to the `font-size` of the `html` element, if this size does not matches the overall design if the site, it will result in a very weird result. 
 - spacing between elements is done with the use of `flex` container with `gap` css property.
 
