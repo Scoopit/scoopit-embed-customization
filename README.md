@@ -6,14 +6,13 @@ Documentation about how to customize scoop.it topic embeds
 
 Scoop.it topic embed is designed to accomodate with your existing site style:
 - `font-family` is never set: fonts will be inherited from your website design
-- all sizes are set in `rem` so it will be relative to the font size of the root of page (including padding/margins)
+- all sizes are set in `rem` so they will be relative to the font size of the root of page (including padding/margins)
 - by default, no colors are set
 - responsive by default
 
-
 ## Advanced customization
 
-The embed generator let you define a fair amount of customization, but it may be necessary to go further for exemplz to set specific `font-family` on title...
+The embed generator let you define a fair amount of customization, but it may be necessary to go further.
 
 List of stable classes that can be used to change style of elements of the embed.
 
@@ -32,10 +31,12 @@ List of stable classes that can be used to change style of elements of the embed
 | scp-embed-post-image         | post image |
 | scp-embed-post-description   | post description |
 | scp-embed-post-insight       | post insight |
+| scp-embed-columns-container  | div containing columns - _Responsive grid_ embed only |
+| scp-embed-column             | column conraining posts - _Responsive grid_ embed only |
 
 Here are some rules of thumb when a applying custom css to the embed:
 - only classes prefixed by `scp-embed-` should be considered as stable
-- thus, to change padding on posts, do not override `scp-p-4` which may disappear in the future, but add a rule on `scp-embed-post-container`
+- thus, to change padding on posts, do not override `scp-p-4` which is used as of this writing to add a padding around elements: it may disappear in the future, but prefer ading rule on `scp-embed-post-container`
 - sizes are relative to the `font-size` of the `html` element, if this size does not matches the overall design if the site, it will result in a very weird result. 
 - spacing between elements is done with the use of `flex` container with `gap` css property.
 
