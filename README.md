@@ -5,8 +5,8 @@ Documentation about how to customize scoop.it topic embeds
 ## Design principles
 
 Scoop.it topic embed is designed to accomodate with your existing site style:
-- `font-family` is never set: fonts will be inherited from your website design
-- all sizes are set in `rem` so they will be relative to the font size of the root of page (including padding/margins)
+- `font-family` is never set: fonts are inherited from your website design
+- all sizes are set in `rem` so they are relative to the font size of the root of page (including padding/margins)
 - by default, no colors are set
 - responsive by default
 
