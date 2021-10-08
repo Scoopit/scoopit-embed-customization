@@ -9,10 +9,30 @@ Scoop.it topic embed is designed to accomodate with your existing site style:
 - all sizes are set in `rem` so they are relative to the font size of the root of page (including padding/margins)
 - by default, no colors are set
 - responsive by default
+- no title tags are used (`h1`, `h2`...) to avoid design issue
 
 ## Advanced customization
 
-The embed generator let you define a fair amount of customization, but it may be necessary to go further.
+The embed generator let you define a fair amount of customization, but it may be necessary to go further. This is done with classing CSS rules on well identified classes used by the embed.
+
+Example:
+```html
+<style>
+  /* white color for the text of the curator insight */
+  .scp-embed-post-insight {
+    color: white;
+  }
+  /* specific font family on titles (header & posts) */
+  .scp-embed-header-title, .scp-embed-header-title {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  /* specific color on post meta */
+  .scp-embed-post-meta, .scp-embed-post-meta a {
+    color: #ddd;
+  }
+</style>
+```
 
 List of stable classes that can be used to change style of elements of the embed.
 
