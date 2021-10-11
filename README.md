@@ -23,7 +23,7 @@ Example:
     color: white;
   }
   /* specific font family on titles (header & posts) */
-  .scp-embed-header-title, .scp-embed-header-title {
+  .scp-embed-header-title, .scp-embed-post-title {
     font-family: Roboto, Helvetica, sans-serif;
     font-weight: bold;
   }
