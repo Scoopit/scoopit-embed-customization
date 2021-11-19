@@ -36,23 +36,24 @@ Example:
 
 List of stable classes that can be used to change style of elements of the embed.
 
-| class name                   | location                    |
-| ---------------------------- | --------------------------- |
-| scp-embed-container          | root div of the embed |
-| scp-embed-header             | root div of the embed header |
-| scp-embed-link               | all links in the embed |
-| scp-embed-header-curatedBy   | "curated by" section in the embed |
-| scp-embed-header-title       | title of the header |
-| scp-embed-header-description | description of the header |
-| scp-embed-powered-by         | powered by scoop.it section |
-| scp-embed-post-container     | post container |
-| scp-embed-post-title         | post title |
-| scp-embed-post-meta          | post meta (url & date) |
-| scp-embed-post-image         | post image |
-| scp-embed-post-description   | post description |
-| scp-embed-post-insight       | post insight |
-| scp-embed-columns-container  | div containing columns - _Responsive grid_ embed only |
-| scp-embed-column             | column conraining posts - _Responsive grid_ embed only |
+| class name                     | location                    |
+| ------------------------------ | --------------------------- |
+| `scp-embed-container`          | root div of the embed |
+| `scp-embed-block`              | all "blocks" elements (posts, header, pagination buttons) |
+| `scp-embed-header`             | root div of the embed header |
+| `scp-embed-link`               | all links in the embed |
+| `scp-embed-header-curatedBy`   | "curated by" section in the embed |
+| `scp-embed-header-title`       | title of the header |
+| `scp-embed-header-description` | description of the header |
+| `scp-embed-powered-by`         | powered by scoop.it section |
+| `scp-embed-post-container`     | post container |
+| `scp-embed-post-title`         | post title |
+| `scp-embed-post-meta`          | post meta (url & date) |
+| `scp-embed-post-image`         | post image |
+| `scp-embed-post-description`   | post description |
+| `scp-embed-post-insight`       | post insight |
+| `scp-embed-columns-container`  | div containing columns - _Responsive grid_ embed only |
+| `scp-embed-column`            | column conraining posts - _Responsive grid_ embed only |
 
 Here are some rules of thumb when a applying custom css to the embed:
 - only classes prefixed by `scp-embed-` should be considered as stable
