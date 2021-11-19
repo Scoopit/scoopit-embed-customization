@@ -52,6 +52,7 @@ List of stable classes that can be used to change style of elements of the embed
 | `scp-embed-post-image`         | post image |
 | `scp-embed-post-description`   | post description |
 | `scp-embed-post-insight`       | post insight |
+| `scp-embed-paginator-button`   | paginator button container |
 | `scp-embed-columns-container`  | div containing columns - _Responsive grid_ embed only |
 | `scp-embed-column`            | column conraining posts - _Responsive grid_ embed only |
 
