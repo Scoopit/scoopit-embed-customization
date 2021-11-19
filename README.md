@@ -54,11 +54,15 @@ List of stable classes that can be used to change style of elements of the embed
 | `scp-embed-post-insight`       | post insight |
 | `scp-embed-paginator-button`   | paginator button container |
 | `scp-embed-columns-container`  | div containing columns - _Responsive grid_ embed only |
-| `scp-embed-column`            | column conraining posts - _Responsive grid_ embed only |
+| `scp-embed-column`             | column conraining posts - _Responsive grid_ embed only |
+| `scp-embed-tagcloud-container` | tag cloud container |
+| `scp-embed-tag`                | a single tag |
+| `scp-scp-embed-tag-selected`   | a selected tag |
+| `scp-embed-tag-count`          | cound on a tag |
 
 Here are some rules of thumb when a applying custom css to the embed:
 - only classes prefixed by `scp-embed-` should be considered as stable
-- thus, to change padding on posts, do not override `scp-p-4` which is used - as of this writing - to add a padding around elements: it may disappear in the future, but prefer adding rule on `scp-embed-post-container`
+- thus, to change padding on posts, do not override `scp-p-4` which is used - as of this writing - to add a padding around elements: it may disappear in the future, but prefer adding a rule on `scp-embed-post-container`
 - sizes are relative to the `font-size` of the `html` element, if this size does not matches the overall design if the site, it will result in a very weird result. 
 - spacing between elements is done with the use of `flex` container with `gap` css property.
 
