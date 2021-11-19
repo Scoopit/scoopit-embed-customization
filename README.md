@@ -57,7 +57,7 @@ List of stable classes that can be used to change style of elements of the embed
 | `scp-embed-column`             | column conraining posts - _Responsive grid_ embed only |
 | `scp-embed-tagcloud-container` | tag cloud container |
 | `scp-embed-tag`                | a single tag |
-| `scp-scp-embed-tag-selected`   | a selected tag |
+| `scp-embed-tag-selected`   | a selected tag |
 | `scp-embed-tag-count`          | cound on a tag |
 
 Here are some rules of thumb when a applying custom css to the embed:
