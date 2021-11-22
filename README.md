@@ -71,8 +71,7 @@ Here are some rules of thumb when a applying custom css to the embed:
 
 Inserting the embed as a `flex` item may result in undefined behaviour (width may be larger than the page, responsiveness may not work properly)
 
-Inserting the embed in a hidden element may result in improper rendering with the responsive widget. To workaround this issue, you can when you 
-display the element trigger a `resize` event programatically. 
+Inserting the embed in a hidden element may result in improper rendering with the responsive widget. To workaround this issue, you can trigger a `resize` event when you display the hidden element. 
 eg:
 ```html
 <a onlick="showEmbed()">Show my topic</a>
