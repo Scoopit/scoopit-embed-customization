@@ -71,5 +71,21 @@ Here are some rules of thumb when a applying custom css to the embed:
 
 Inserting the embed as a `flex` item may result in undefined behaviour (width may be larger than the page, responsiveness may not work properly)
 
+Inserting the embed in a hidden element may result in improper rendering with the responsive widget. To workaround this issue, you can when you 
+display the element trigger a `resize` event programatically. 
+eg:
+```html
+<a onlick="showEmbed()">Show my topic</a>
+
+<script>
+  function showEmbed(){
+    window.getElementById('scp-embed-my-topic').style.display = 'block';
+    window.dispatchEvent(new Event('resize'));
+  }
+</script>
+
+<!-- Embed is not displayed, a click on "Show my topic" link will display it -->
+<div id="scp-embed-my-topic" style="display: none"></div>
+```
 
 
