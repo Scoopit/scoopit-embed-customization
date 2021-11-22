@@ -13,7 +13,7 @@ Scoop.it topic embed is designed to accomodate with your existing site style:
 
 ## Advanced customization
 
-The embed generator let you define a fair amount of customization, but it may be necessary to go further. This is done with classing CSS rules on well identified classes used by the embed.
+The embed generator let you define a fair amount of customization, but it may be necessary to go further. This is done with custom CSS rules on well identified classes used by the embed.
 
 Example:
 ```html
