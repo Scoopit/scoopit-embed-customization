@@ -52,7 +52,7 @@ Change the color of the popup title, put this anywhere in the page where the pop
 </style>
 ```
 
-Change the color of the submit button
+Change the color of the submit button:
 ```html
 <style>
    .scp-subscribe-button {
@@ -64,5 +64,4 @@ Change the color of the submit button
        background-color: #eee !important;
    }
 </style>
-
 ```
