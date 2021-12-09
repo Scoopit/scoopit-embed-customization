@@ -30,6 +30,7 @@ List of stable classes that can be used to change style of elements of the embed
 | `scp-subscribe-email`            |                | email input field
 | `scp-subscribe-agreement`        |                | agreement checkbox input field
 | `scp-subscribe-error`            |                | validation error
+| `scp-subscribe-button-container` |                | subscribe button container
 | `scp-subscribe-button`           |                | subscribe button
 | `scp-subscribe-button-submitting` |               | subscribe button while subscribing (added to `scp-subscribe-button`)
 | `scp-subscribe-footer`           |                | footer
